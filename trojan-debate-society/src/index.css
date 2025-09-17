@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.image {
+  height: 4vw;  /* 4% of viewport width */
+  width: 3vw;   /* Scales with browser size */
+  min-height: 40px;  /* Don't get too small */
+  max-height: 80px;  /* Don't get too big */
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid #FCCD03 !important;
+}
